@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>Register Page</h1>
+
+    <br>
+    <br>
+    <a href="/">Home</a>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+    <a href="/error">Error</a>
+    <a href="/region">Regions</a>
+    <a href="/state">States</a>
+    <a href="/district">Districts</a>
+    <br>
+    <br>
+
+    <form action="/api/auth/register" method="post" enctype="multipart/form-data">
+        <input type="text" placeholder="login" name="login" required>
+        <input type="text" placeholder="password" name="password" required>
+        <input type="text" placeholder="fullName" name="fullName" required>
+        <input type="text" placeholder="districtId" name="districtId" required>
+        <input type="text" placeholder="address" name="address" required>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "login": "abdulloh",
+    "password": "anjdksa mskd",
+    "fullName": "Abdulloh",
+    "districtId": 1,
+    "address": "Gulzor street 15"
+  },
+  {
+    "id": "0392e7a2-f94d-4008-ac4c-879f264dde99",
+    "login": "jasur",
+    "password": "$2b$10$xU5iDD8o2NnWkQpc8ssPBu2GC/BZzZOOBoKICsOjh79ZaKDDwa0vC",
+    "fullName": "Jasur",
+    "districtId": "1",
+    "address": "gulzor street 24"
+  },
+  {
+    "id": "867fa498-438a-4a13-87e9-83d7b2d73918",
+    "login": "avaz",
+    "password": "$2b$10$upkpG/n4e5txfSDxP2mU3ePOxilmZ2HZge8zRNL/5LOI7LpuCxq2e",
+    "fullName": "Avaz",
+    "districtId": "0597e51d-39d8-4272-ac39-06e3012db057",
+    "address": "Jomiy street 10"
+  },
+  {
+    "id": "e4ce21c2-904c-48b6-8b1f-9dd9f5331001",
+    "login": "bilol",
+    "password": "$2b$10$ZW7N1n/uzEJpja6FmG9V7.sw2XT8uTkl1W42LGUOZqlbhE9Huipmq",
+    "fullName": "Bilol",
+    "districtId": "0597e51d-39d8-4272-ac39-06e3012db057",
+    "address": "Farobiy street 100"
+  }
+]
