@@ -8,5 +8,20 @@
     "id": "70fa8b4e-f65f-4f24-abac-a78472bd11cc",
     "name": "Samarqand",
     "stateId": 1
+  },
+  {
+    "id": "757c7945-f08f-421f-bbeb-465bfd11fa3f",
+    "name": "Surxondaryo",
+    "stateId": 1
+  },
+  {
+    "id": "f4c24bd0-d118-40b7-8040-9fa6fa3e8f9a",
+    "name": "Xorazm",
+    "stateId": 1
+  },
+  {
+    "id": "580d9491-ca7c-4fc2-a85a-f0b9bb547b06",
+    "name": "Jizzax",
+    "stateId": 1
   }
 ]

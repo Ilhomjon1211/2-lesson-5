@@ -20,8 +20,16 @@
 
     <ol class="regions">
         <% data.forEach((el, i = 0) => { %>
-            <li> Name: <%= el.name %> regionId: <%= el.regionId %> </li>
+            <li>id: <%= el.id %> Name: <%= el.name %> regionId: <%= el.regionId %> </li>
        <% }) %>
+
+       <br>
+
+       <form action="/api/district/create" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="districtName" required>
+        <input type="text" name="regionId" placeholder="regionId" required>
+        <button type="submit">submit</button>
+    </form>
     </ol>
 </body>
 </html>

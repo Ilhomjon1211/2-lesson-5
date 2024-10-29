@@ -30,5 +30,21 @@
     "fullName": "Bilol",
     "districtId": "0597e51d-39d8-4272-ac39-06e3012db057",
     "address": "Farobiy street 100"
+  },
+  {
+    "id": "af2ae399-b7fc-4459-ae10-4406444c8c11",
+    "login": "temur",
+    "password": "$2b$10$sMBVoJOzHmEZIxdD5iGDw.q/tEvv28gRnuTjaPuqSUZS.XZTD8INS",
+    "fullName": "Temur",
+    "districtId": "0597e51d-39d8-4272-ac39-06e3012db057",
+    "address": "yangiyol mfy"
+  },
+  {
+    "id": "66136dd0-8fad-48db-a99b-f506b8afc082",
+    "login": "akmal",
+    "password": "$2b$10$/gpy8AIzzGv3mjM2BxbLPuhqNDcidux6h3HOfIclBOO55RiEALDDa",
+    "fullName": "Akmal",
+    "districtId": 1,
+    "address": "kamolon ko'chasi "
   }
 ]

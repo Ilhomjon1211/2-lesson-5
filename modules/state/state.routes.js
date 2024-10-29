@@ -4,6 +4,6 @@ const { checkToken } = require("../../middlewares/checkToken")
 
 const router = Router()
 
-router.post("/push", checkToken,  stateConttroller.AddState.bind(stateConttroller))
+router.post("/create", checkToken,  stateConttroller.AddState.bind(stateConttroller))
 
 module.exports = { router }

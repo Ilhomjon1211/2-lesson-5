@@ -19,8 +19,13 @@
 
     <ol class="states">
         <% data.forEach((el, i = 0) => { %>
-            <li> Name: <%= el.name %></li>
+            <li>id: <%= el.id %> Name: <%= el.name %></li>
        <% }) %>
+
+       <form action="/api/state/create" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="stateName" required>
+        <button type="submit">submit</button>
+    </form>
     </ol>
 </body>
 </html>

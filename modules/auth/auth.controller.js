@@ -42,10 +42,10 @@ class AuthController {
 
   async register(req, res, next) {
     try {
-      const { login, password, fullName, districtId, address } = req.body;
+      let { login, password, fullName, districtId, address } = req.body;
       
       
-      
+      districtId = Number(districtId)
       if (!login || !password || !fullName || !districtId || !address) {
         throw new CustomError(
           400,
@@ -74,6 +74,7 @@ class AuthController {
         res.redirect("/login");
     } catch (error) {
       next(error)
+      
       
     }
   }

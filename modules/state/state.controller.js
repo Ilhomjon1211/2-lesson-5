@@ -26,8 +26,9 @@ class StateController{
                 id: newId,
                 name,
             })
+            res.redirect("/state")
         } catch (error) {
-            console.log(error);
+            next(error)
             
         }
     }

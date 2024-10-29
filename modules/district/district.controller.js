@@ -38,8 +38,9 @@ class DistrictController{
                 name,
                 regionId
             })
+            res.redirect("/district")
         } catch (error) {
-            console.log(error);
+            next(error)
             
         }
     }

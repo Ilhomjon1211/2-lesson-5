@@ -25,6 +25,7 @@ class RegionController{
             if (foundName.data) {
                 throw new CustomError(400, "name already exists")
             }
+            
             const foundById = await this.#stateService.getOneById(stateId)
             if (!foundById.data) {
                 throw new CustomError(400, "state not found!")
@@ -35,8 +36,9 @@ class RegionController{
                 name,
                 stateId,
             })
+            res.redirect("/region")
         } catch (error) {
-            console.log(error);
+            next(error)
             
         }
     }
